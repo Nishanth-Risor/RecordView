@@ -102,7 +102,7 @@ public class RecordButton extends AppCompatImageView implements View.OnTouchList
             switch (event.getAction()) {
 
                 case MotionEvent.ACTION_DOWN:
-                    recordView.onActionDown((RecordButton) v, event);
+                    recordView.onActionDown((RecordButton) v, event, getContext();
                     break;
 
 
